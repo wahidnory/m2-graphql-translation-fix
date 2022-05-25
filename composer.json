@@ -1,0 +1,21 @@
+{
+  "name": "wahid/m2-graph-ql-translations",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-graph-ql": "100.4.*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Wahid\\GraphQlTranslations\\": ""
+    }
+  }
+}
